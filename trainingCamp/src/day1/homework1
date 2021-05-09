@@ -35,4 +35,4 @@ String'ler: Metin depolamak için kullanılırlar. Bir string değişkeni, çift
 2- Referans veri tipleri, belirli işlemleri gerçekleştirmek üzere method'ları çağırmak için kullanılabilirken ilkel tipler bunu yapamaz.
 3- İlkel veri tipleri her zaman bir değere sahipken, referans tipler boş olabilir.
 4- İlkel veri tipleri küçük harfle başlarken, referans tipler büyük harfle başlar.
-5- Referans veri tiplerinin hepsi aynı boyuta sahipken, ilkel bir veri tipinin boyutu veri türüne bağlıdır.
+5- Referans veri tiplerinin hepsi aynı boyuta sahipken, ilkel veri tiplerinin boyutu veri türüne bağlıdır.
