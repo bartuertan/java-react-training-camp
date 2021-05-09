@@ -1,1 +1,38 @@
-hello world
+Veri tipleri ikiye ayrılır:
+
+İlkel (Primitive) veri tipleri (byte, short, int, long, float, double, boolean, char)
+Referans (Non-Primitive) veri tipleri (String, Array, Class, Interface gibi)
+
+Not: Bazı kaynaklar null veri tipini de dahil edip üçe ayrıldığını belirtiyor.
+
+İLKEL VERİ TİPLERİ (Primitive Data Types)
+
+İlkel bir veri tipi, değişkenlerin boyutunu ve türünü belirtir.
+İlave bir method içermez.
+Java'da sekiz adet ilkel data tipi vardır.
+
+byte: Tam sayı veri tipidir. -128'den 127'ye kadar olan tam sayıları saklayabilir. Bir değerin -128 ve 127 arasında olacağından emin olduğunuzda hafızadan tasarruf etmek için int veya diğer tamsayı türleri yerine kullanılabilir.
+short: Tam sayı veri tipidir. -32768'den 32767'ye kadar olan tam sayıları saklayabilir.
+int: Tam sayı veri tipidir. -2147483648 ile 2147483647 arasındaki tam sayıları saklayabilir. Sayısal bir değere sahip değişkenler oluşturulduğunda genel olarak int veri türü tercih edilir.
+long: Tam sayı veri tipidir. -9223372036854775808 ile 9223372036854775807 arasındaki tam sayıları saklayabilir. Bu, int'in kullanılamayacak kadar büyük olduğu durumlarda tercih edilir.
+float: Ondalıklı sayı veri tipidir. 6-7 ondalık basamağı depolamak için uygundur.
+double: Ondalıklı sayı veri tipidir. 15 ondalık basamağı depolamak için uygundur.
+boolean: Mantıksal veri tipidir. true ve false değerlerini saklar. Daha çok koşullu testler için kullanılır.
+char: Tek bir karakteri saklamak için kullanılır. Karakter, 'A' veya 'b' gibi tek tırnak içine alınmalıdır. Ek olarak, belirli karakterleri görüntülemek için ASCII değerleri kullanabilir.
+
+REFERANS VERİ TİPLERİ (Non-Primitive Data Types)
+
+İlkel olmayan veri tipleri nesneleri işaret ettikleri için referans türleri olarak adlandırılır.
+
+Array'ler: Diziler, her bir değer için ayrı değişkenler bildirmek yerine, birden çok değeri tek bir değişkende depolamak için kullanılır. Bir dizi için değişken türü köşeli parantez ile tanımlanır.
+Class'lar: Java nesne yönelimli bir programlama dilidir. Java'daki her şey, attribute'leri ve method'ları ile birlikte sınıflar ve nesnelerle ilişkilidir. Sınıflar, nesne yapıcı veya nesneler oluşturmak için bir taslak gibidir.
+Interface'ler: Java'da soyutlama (abstraction) sağlamanın bir yolu interface'lerdir. Interface'ler, ilgili method'ları boş gövdelerle gruplamak için kullanılan soyut sınıflardır.
+String'ler: Metin depolamak için kullanılırlar. Bir string değişkeni, çift tırnaklar ile çevrili bir karakter derlemesi içerir.
+
+İLKEL ve REFERANS VERİ TİPLERİ ANA FARKLARI
+
+1- İlkel veri tipleri Java'da önceden tanımlanmıştır. Referans tipler ise programcı tarafından oluşturulur ve Java tarafından tanımlanmaz (String hariç).
+2- Referans veri tipleri, belirli işlemleri gerçekleştirmek üzere method'ları çağırmak için kullanılabilirken ilkel tipler bunu yapamaz.
+3- İlkel veri tipleri her zaman bir değere sahipken, referans tipler boş olabilir.
+4- İlkel veri tipleri küçük harfle başlarken, referans tipler büyük harfle başlar.
+5- Referans veri tiplerinin hepsi aynı boyuta sahipken, ilkel bir veri tipinin boyutu veri türüne bağlıdır.
